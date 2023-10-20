@@ -6,5 +6,5 @@ COPY . .
 
 ENV PATH="/root/.cargo/bin:$PATH"
 
-RUN bash ./setup.sh
+RUN bash ./.devcontainer/setup.sh
 
