@@ -4,7 +4,7 @@ WORKDIR /home/
 
 COPY . .
 
-ENV PATH="/root/.cargo/bin:$PATH"
-
+CMD ["ls", "-l"]
 RUN bash ./setup.sh
 
+ENV PATH="/root/.cargo/bin:$PATH"
