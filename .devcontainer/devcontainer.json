@@ -1,0 +1,16 @@
+{
+	"name": "Codespaces Rust Starter",
+	"extensions": [
+		"dzhavat.bracket-pair-toggler",
+		"vadimcn.vscode-lldb",
+		"serayuzgur.crates",
+		"tamasfe.even-better-toml",
+		"swellaby.rust-pack",
+    "dustypomerleau.rust-syntax",
+    "rust-lang.rust-analyzer"    
+	],
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}
